@@ -40,6 +40,7 @@ namespace InlineScheduler.Tests.Advanced
         public void Should_do_work()
         {
             _foo1WorkDone.Should().BeTrue();
+            _foo2WorkDone.Should().BeTrue();
         }
     }
 }
